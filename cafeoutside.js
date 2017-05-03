@@ -186,9 +186,6 @@ boil.cafeoutside.prototype = {
             ikea = self.furnitureType(obj2.index);
         })
                 
-     if (ptag.x>1161){
-     changeState('cafeoutside');
-     }
     
         if(game.input.keyboard.isDown(Phaser.Keyboard.S)){
             ptag.body.velocity.y =300;
